@@ -1,0 +1,5 @@
+Question 1:
+The code smell in 558-568 is repeated code. Around line 600, the same 
+11 lines appear. The solution to this code smell is to refactor the code
+and create a function that can be called in both of those places in place
+of the repeated code. 

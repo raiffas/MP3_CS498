@@ -63,8 +63,8 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="j2sdk4" classname="hudson.slaves.ComputerLauncherTest" time="0.004"/>
-  <testcase name="openJDK7" classname="hudson.slaves.ComputerLauncherTest" time="0.001"/>
+  <testcase name="j2sdk4" classname="hudson.slaves.ComputerLauncherTest" time="0.005"/>
+  <testcase name="openJDK7" classname="hudson.slaves.ComputerLauncherTest" time="0"/>
   <testcase name="jdk5" classname="hudson.slaves.ComputerLauncherTest" time="0.001"/>
   <testcase name="jdk6" classname="hudson.slaves.ComputerLauncherTest" time="0"/>
   <testcase name="jdk7" classname="hudson.slaves.ComputerLauncherTest" time="0"/>

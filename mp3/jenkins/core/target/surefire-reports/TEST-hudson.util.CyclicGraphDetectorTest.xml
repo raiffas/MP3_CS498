@@ -63,7 +63,7 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="cycle1" classname="hudson.util.CyclicGraphDetectorTest" time="0.002"/>
-  <testcase name="cycle2" classname="hudson.util.CyclicGraphDetectorTest" time="0.001"/>
+  <testcase name="cycle1" classname="hudson.util.CyclicGraphDetectorTest" time="0.003"/>
+  <testcase name="cycle2" classname="hudson.util.CyclicGraphDetectorTest" time="0"/>
   <testcase name="cycle3" classname="hudson.util.CyclicGraphDetectorTest" time="0"/>
 </testsuite>

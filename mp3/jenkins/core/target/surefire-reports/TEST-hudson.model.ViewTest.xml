@@ -63,6 +63,6 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="getAllItems" classname="hudson.model.ViewTest" time="0.117"/>
-  <testcase name="testAddDisplayNamesToSearchIndex" classname="hudson.model.ViewTest" time="0.001"/>
+  <testcase name="getAllItems" classname="hudson.model.ViewTest" time="0.116"/>
+  <testcase name="testAddDisplayNamesToSearchIndex" classname="hudson.model.ViewTest" time="0.002"/>
 </testsuite>

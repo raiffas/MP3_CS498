@@ -63,11 +63,11 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="assertMaskOnClone" classname="hudson.util.ArgumentListBuilderTest" time="0.003"/>
+  <testcase name="assertMaskOnClone" classname="hudson.util.ArgumentListBuilderTest" time="0.002"/>
   <testcase name="addKeyValuePairsFromPropertyString" classname="hudson.util.ArgumentListBuilderTest" time="0.001"/>
   <testcase name="assertSeveralMaskedArguments" classname="hudson.util.ArgumentListBuilderTest" time="0"/>
   <testcase name="assertEmptyMask" classname="hudson.util.ArgumentListBuilderTest" time="0"/>
-  <testcase name="assertLastArgumentIsMasked" classname="hudson.util.ArgumentListBuilderTest" time="0"/>
+  <testcase name="assertLastArgumentIsMasked" classname="hudson.util.ArgumentListBuilderTest" time="0.001"/>
   <testcase name="assertKeyValuePairs" classname="hudson.util.ArgumentListBuilderTest" time="0"/>
   <testcase name="testToWindowsCommand" classname="hudson.util.ArgumentListBuilderTest" time="0.001"/>
   <testcase name="numberOfBackslashesInPropertiesShouldBePreservedAfterMacroExpansion" classname="hudson.util.ArgumentListBuilderTest" time="0.002"/>

@@ -63,6 +63,6 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="annotateFileScheme" classname="hudson.console.UrlAnnotatorTest" time="0.002"/>
-  <testcase name="testAnnotate" classname="hudson.console.UrlAnnotatorTest" time="0.001"/>
+  <testcase name="annotateFileScheme" classname="hudson.console.UrlAnnotatorTest" time="0.001"/>
+  <testcase name="testAnnotate" classname="hudson.console.UrlAnnotatorTest" time="0.002"/>
 </testsuite>
