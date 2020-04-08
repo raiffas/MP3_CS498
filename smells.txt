@@ -1,0 +1,6 @@
+Question 1:
+The code smell in this question is repeated code. These 11 lines of code
+are repated again later in the class (around line 600). In order to 
+fix this code smell, refactor the code to include the repeated lines into a 
+seperate function. This function can be called in place of the repeated lines 
+of code. 
