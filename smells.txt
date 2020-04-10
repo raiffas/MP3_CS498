@@ -3,4 +3,7 @@ The code smell in this question is repeated code. These 11 lines of code
 are repated again later in the class (around line 600). In order to 
 fix this code smell, refactor the code to include the repeated lines into a 
 seperate function. This function can be called in place of the repeated lines 
-of code. 
+of code.
+
+Question 3:
+The updateAndTrim function probably does not belong to the Nodes class. This code smell would either be feature envy or refused bequest. updateAndTrim is chaging the values of a jenkins instance, we want that function to be a member of the jenkins class and not the nodes class in case this same function needs to be used outside of the nodes class.  

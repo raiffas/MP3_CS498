@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hudson.FunctionsTest" time="12.021" tests="15" errors="0" skipped="1" failures="0">
+<testsuite name="hudson.FunctionsTest" time="7.184" tests="15" errors="0" skipped="1" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib"/>
@@ -63,21 +63,21 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="printLogRecordHtml" classname="hudson.FunctionsTest" time="0.03"/>
-  <testcase name="testGetActionUrl_absoluteUriWithAuthority" classname="hudson.FunctionsTest" time="0.272"/>
-  <testcase name="testGetActionUrl_absoluteUriWithoutAuthority" classname="hudson.FunctionsTest" time="0.003"/>
-  <testcase name="testGetRelativeDisplayName" classname="hudson.FunctionsTest" time="0.051"/>
-  <testcase name="testGetRelativeDisplayNameInsideItemGroup" classname="hudson.FunctionsTest" time="0.329"/>
-  <testcase name="testHumanReadableFileSize" classname="hudson.FunctionsTest" time="0.004"/>
-  <testcase name="testBreakableString" classname="hudson.FunctionsTest" time="0.14"/>
-  <testcase name="testGetActionUrl_absolutePath" classname="hudson.FunctionsTest" time="0.845"/>
-  <testcase name="testGetActionUrl_relativePath" classname="hudson.FunctionsTest" time="0.704"/>
-  <testcase name="testGetRelativeLinkTo_JobContainedInView" classname="hudson.FunctionsTest" time="1.494"/>
-  <testcase name="testGetRelativeLinkTo_JobFromComputer" classname="hudson.FunctionsTest" time="2.466"/>
+  <testcase name="testGetActionUrl_absoluteUriWithAuthority" classname="hudson.FunctionsTest" time="0.168"/>
+  <testcase name="testGetActionUrl_absoluteUriWithoutAuthority" classname="hudson.FunctionsTest" time="0.002"/>
+  <testcase name="testGetRelativeDisplayName" classname="hudson.FunctionsTest" time="0.016"/>
+  <testcase name="testGetRelativeDisplayNameInsideItemGroup" classname="hudson.FunctionsTest" time="0.128"/>
+  <testcase name="testHumanReadableFileSize" classname="hudson.FunctionsTest" time="0.001"/>
+  <testcase name="testBreakableString" classname="hudson.FunctionsTest" time="0.006"/>
+  <testcase name="printLogRecordHtml" classname="hudson.FunctionsTest" time="0.003"/>
+  <testcase name="testGetActionUrl_absolutePath" classname="hudson.FunctionsTest" time="0.724"/>
+  <testcase name="testGetActionUrl_relativePath" classname="hudson.FunctionsTest" time="0.597"/>
+  <testcase name="testGetRelativeLinkTo_JobContainedInView" classname="hudson.FunctionsTest" time="0.991"/>
+  <testcase name="testGetRelativeLinkTo_JobFromComputer" classname="hudson.FunctionsTest" time="1.804"/>
   <testcase name="testGetRelativeLinkTo_JobNotContainedInView" classname="hudson.FunctionsTest" time="0">
     <skipped message="too expensive to make it correct"/>
   </testcase>
-  <testcase name="testGetRelativeLinkTo_JobContainedInViewWithinItemGroup" classname="hudson.FunctionsTest" time="3.087"/>
-  <testcase name="getRelativeLinkTo_MavenModules" classname="hudson.FunctionsTest" time="2.322"/>
-  <testcase name="testGetActionUrl_unparsable" classname="hudson.FunctionsTest" time="0.274"/>
+  <testcase name="testGetRelativeLinkTo_JobContainedInViewWithinItemGroup" classname="hudson.FunctionsTest" time="1.24"/>
+  <testcase name="getRelativeLinkTo_MavenModules" classname="hudson.FunctionsTest" time="1.355"/>
+  <testcase name="testGetActionUrl_unparsable" classname="hudson.FunctionsTest" time="0.149"/>
 </testsuite>
