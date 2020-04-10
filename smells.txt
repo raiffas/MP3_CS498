@@ -5,8 +5,9 @@ fix this code smell, refactor the code to include the repeated lines into a
 seperate function. This function can be called in place of the repeated lines 
 of code. 
 
+
 Question 4:
-Lines 249- 254 can be eliminated through use of the Extract method. The repeated lines could be inserted into their own function and called as needed.
+Lines 249- 254 can be eliminated through use of the Extract method. The repeated lines could be inserted into their own function and called needed.
 
 
 
