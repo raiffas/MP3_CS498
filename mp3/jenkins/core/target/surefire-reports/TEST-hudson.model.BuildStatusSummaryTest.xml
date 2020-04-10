@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hudson.model.BuildStatusSummaryTest" time="0.137" tests="12" errors="0" skipped="0" failures="0">
+<testsuite name="hudson.model.BuildStatusSummaryTest" time="0.093" tests="12" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib"/>
@@ -63,16 +63,16 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testNotBuilt" classname="hudson.model.BuildStatusSummaryTest" time="0.116"/>
+  <testcase name="testNotBuilt" classname="hudson.model.BuildStatusSummaryTest" time="0.069"/>
   <testcase name="testAborted" classname="hudson.model.BuildStatusSummaryTest" time="0"/>
   <testcase name="testNonTestRelatedBecameUnstable" classname="hudson.model.BuildStatusSummaryTest" time="0.001"/>
   <testcase name="testFailure" classname="hudson.model.BuildStatusSummaryTest" time="0.001"/>
   <testcase name="testFixed" classname="hudson.model.BuildStatusSummaryTest" time="0.001"/>
-  <testcase name="testUnstableAfterFailure" classname="hudson.model.BuildStatusSummaryTest" time="0.002"/>
-  <testcase name="testStatusUnknownIfRunIsStillBuilding" classname="hudson.model.BuildStatusSummaryTest" time="0.009"/>
-  <testcase name="testBecameFailure" classname="hudson.model.BuildStatusSummaryTest" time="0.002"/>
-  <testcase name="testBecameUnstable" classname="hudson.model.BuildStatusSummaryTest" time="0.001"/>
+  <testcase name="testUnstableAfterFailure" classname="hudson.model.BuildStatusSummaryTest" time="0.001"/>
+  <testcase name="testStatusUnknownIfRunIsStillBuilding" classname="hudson.model.BuildStatusSummaryTest" time="0.005"/>
+  <testcase name="testBecameFailure" classname="hudson.model.BuildStatusSummaryTest" time="0.001"/>
+  <testcase name="testBecameUnstable" classname="hudson.model.BuildStatusSummaryTest" time="0.004"/>
   <testcase name="testFailureSince" classname="hudson.model.BuildStatusSummaryTest" time="0.001"/>
-  <testcase name="testSuccess" classname="hudson.model.BuildStatusSummaryTest" time="0.001"/>
+  <testcase name="testSuccess" classname="hudson.model.BuildStatusSummaryTest" time="0.007"/>
   <testcase name="testNonTestRelatedUnstable" classname="hudson.model.BuildStatusSummaryTest" time="0.002"/>
 </testsuite>

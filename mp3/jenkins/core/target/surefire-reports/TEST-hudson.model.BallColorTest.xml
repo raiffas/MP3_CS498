@@ -63,6 +63,6 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="htmlColor" classname="hudson.model.BallColorTest" time="0.001"/>
-  <testcase name="iconClassName" classname="hudson.model.BallColorTest" time="0"/>
+  <testcase name="htmlColor" classname="hudson.model.BallColorTest" time="0"/>
+  <testcase name="iconClassName" classname="hudson.model.BallColorTest" time="0.001"/>
 </testsuite>
