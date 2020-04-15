@@ -9,7 +9,7 @@ Question 3:
 The updateAndTrim function probably does not belong to the Nodes class. This code smell would either be feature envy or refused bequest. updateAndTrim is chaging the values of a jenkins instance, we want that function to be a member of the jenkins class and not the nodes class in case this same function needs to be used outside of the nodes class.  
 
 Question 4:
-Lines 249- 254 can be eliminated through use of the Extract method. The repeated lines could be inserted into their own function and called needed.
-
+Lines 249-254 can be eliminated by creating a while loop that checks whether or not i is greater than chars.length(); if it isn't, running the body of the while loop which contains the append statement and the increment and if it is exiting the loop.
+ 
 Question 6:
 In the RunParameterDefinitionTest.java, duplicates of the creation of the Freestyle project exist. This can be extracted into two functions that creates a Freestyle project and returns the publisher list
